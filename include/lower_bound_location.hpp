@@ -2,5 +2,6 @@
 #define LOWER_BOUND_LOCATION_HPP
 #include <string>
 #include "models.hpp"
-int lowerBoundByLocation(const Candidate arr[], int n, const std::string& loc);
+// lower_bound on primaryKey
+int lowerBoundByLocation(const Candidate arr[], int n, const std::string& key);
 #endif

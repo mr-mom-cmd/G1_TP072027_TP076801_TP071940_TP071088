@@ -2,5 +2,6 @@
 #define UPPER_BOUND_LOCATION_HPP
 #include <string>
 #include "models.hpp"
-int upperBoundByLocation(const Candidate arr[], int n, const std::string& loc);
+// upper_bound on primaryKey
+int upperBoundByLocation(const Candidate arr[], int n, const std::string& key);
 #endif
